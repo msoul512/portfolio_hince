@@ -1,0 +1,107 @@
+/* container_costomer */
+#container_costomer:after {content:'';display:block;clear:both;margin-bottom:40px}
+#container_costomer h1{padding-top: 40px;}
+#container_costomer h2{text-align:center;
+  color:#a36d6a;
+  padding-top:40px;
+  margin-bottom:0;
+  font-size:28px;
+  font-weight:normal;
+  font-family: 'Cambria Math';
+  letter-spacing: 1px;
+  text-transform: uppercase;}
+#container_costomer .costomer {width:100%;padding:10px;}
+#container_costomer .costomer input {display:none;}
+#container_costomer .costomer label {display:inline-block;color:#373737;font-size:15px;width:22.5%;height:20px;line-height:20px;text-align:center;padding-bottom:5px;
+margin:0 auto;border-bottom:1px solid #a36d6a;border-top-left-radius:20px;border-top-right-radius:20px;}
+
+#container_costomer .costomer a {display:block;color:#373737;font-size:20px;font-weight:normal;}
+
+#container_costomer .cont {display:none;padding:20px 0;}
+
+#container_costomer .costomer input:checked + label {background-color: #a36d6a;color:#fff}
+
+#notice:checked ~ .cont1 {display: block}
+#qna:checked ~ .cont2 {display: block}
+#eve:checked ~ .cont3 {display: block}
+#qna1:checked ~ .cont4 {display: block}
+
+/* QnA */
+#container_costomer .costomer .cont {width:95%}
+#container_costomer .costomer .cont dl {width:100%}
+#container_costomer .costomer .cont1 dt {width:100%;height:20px;line-height:20px;border-bottom:1px solid #ccc;font-size:12px;padding:5px 0;text-indent:10px}
+#container_costomer .costomer .cont2 dt {display:inline-block;width:100%;height:20px;line-height:20px;font-size:12px;padding:5px 0;text-indent:10px}
+#container_costomer .costomer .cont dt span {float:right;padding-right:20px}
+#container_costomer .costomer .cont dt span {float:left;}
+#container_costomer .costomer .cont dt span img {position:absolute;right:5%;width:13px;}
+#container_costomer .costomer .cont1 dd {display:none;width:100%;height:auto;background-color:#ede2e1;color:#555;padding:5px;font-size:12px;text-align:left;}
+#container_costomer .costomer .cont2 dd {display:none;width:100%;height:auto;padding:5px;background-color: #ede2e1;color:#555;font-size:12px;text-align:left;}
+#container_costomer .costomer .cont1 dl dd.on {display:block}
+#container_costomer .costomer .cont2 dl dd.on {display:block}
+
+#container_costomer .costomer .cont2 dl dt .bx{border:1px solid #a36d6a; width:70px;height:20px;line-height:20px;text-align:center;}
+
+#container_costomer .costomer .cont3 dl {width:100%;height:auto;margin:0px auto;position:relative;}
+#container_costomer .costomer .cont3 dt {width:100%;height:250px;}
+#container_costomer .costomer .cont3 dt span .evelogo{position:absolute;left:5%;}
+#container_costomer .costomer .cont3 dt span img{width: 90%; height: auto;margin-top: -12px;}
+#container_costomer .costomer .cont3 dd h1{font-size:20px;font-weight:bold;color: #a36d6a;width:100%; height: auto;margin-top: -12px;}
+#container_costomer .costomer .cont3 dd h3{font-size:14px;color: #4e3836;width:100%; height: auto;margin-top: -12px;}
+
+
+#container_costomer .costomer .cont4 dl {width: 100%; 
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative; }
+#container_costomer .costomer .cont4 dl .faq11{
+-moz-appearance:none;
+-webkit-appearance:none;
+-ms-appearance:none;
+-o-appearance:none;
+  width:100%;
+  height:45px;
+  line-height:45px;
+  text-align: center;
+  background: #a36d6a;
+  color: #fff;
+  border: 1px solid #a36d6a;
+  font-size: 18px;
+  font-weight: bold;}
+#container_costomer .costomer .cont4 .c4txt{
+  background-color: #ede2e1;
+  border: 0;
+  width:100%;
+  height:200px;
+  line-height:200px;
+  padding:0;
+  margin-top:2px;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing:border-box; 
+  text-align:center;
+  }
+
+#container_costomer .costomer .cont2 #qnasort{  
+  background-color: #ede2e1;
+  border: 0;
+  width:100%;
+  height:45px;
+  padding:0 20px;
+  margin-top:2px;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing:border-box;  }
+
+ #container_costomer .costomer .cont3 #qnasort{  
+  background-color: #ede2e1;
+  border: 0;
+  width:100%;
+  height:45px;
+  padding:0 20px;
+  margin-top:2px;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing:border-box;  }
+
+.box5 #na h3{color:#a36d6a}
